@@ -1,5 +1,4 @@
-
 *.onnx
-/myenv
+/.venv
 /__pycache__
 /.vscode

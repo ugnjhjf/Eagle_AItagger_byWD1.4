@@ -1,14 +1,11 @@
 ## 更新说明
 
-集成图像推理代码，只需额外下载推理模型。合并中文标签字典与原始字典，可直接推理中文标签。
+1. 字典已全部汉化
 
-3.0.2：修复了错误移除角色tag的bug
+2. 多进程推理，自动管理推理任务
 
-3.1.0：翻译了935条tag
+## 4.0.0版本前生成的英文tag的更新方式
 
-更新计划：对大资源库的多线程推理与写入适配。
-
-[多线程仓库](https://github.com/TheElevatedOne/wd14-tagger-standalone-threaded?tab=readme-ov-file#multithreading)
 
 ## gpu推理配置
 
@@ -76,17 +73,17 @@ tags_path：推理使用的字典
 
 **threshold**：过滤推理标签的置信度阈值，**范围\[0-1\]，默认0.5**
 
-replace_underscore：是否将标签名中的下划线替换为空格
+replace_underscore：是否将标签名中的下划线替换为空格（4.1计划删除）
 
-underscore_excludes：不替换下划线的标签
+underscore_excludes：不替换下划线的标签（4.1计划删除）
 
-escape_tags：是否转义特殊字符（如括号和反斜杠）
+escape_tags：是否转义特殊字符（如括号和反斜杠）（4.1计划删除）
 
 **use_chinese_name**：是否使用标签的中文名称
 
 additional_tags：强制添加的标签
 
-exclude_tags：强制排除的标签，默认排除1girl类
+exclude_tags：强制排除的标签
 
 sort_alphabetically：是否按字母顺序排序（默认按置信度降序）
 
@@ -94,9 +91,21 @@ sort_alphabetically：是否按字母顺序排序（默认按置信度降序）
 
 [Json] --> 写入Eagle的配置
 
-is_creat_image_info_csv：是否创建一个image_info.csv文件，保存的是处理图片的标签数据与索引
+is_creat_image_info_csv：是否创建一个image_info.csv文件，保存的是处理图片的标签数据与索引（4.1计划删除）
 
 add_write_mode：标签的写入模式，默认True为追加写入，Fasle为覆盖写入
+
+</br>
+
+[Process] --> 多进程推理配置
+
+max_workers：根据GPU显存调整(对于eva02(1.5Gb)，6G:2 | 8G:3，以此类推。推荐留2G显存。)
+
+batch_size：每个进程的批次大小(不用管，代码有自动管理系统)
+
+max_retries：失败重试次数
+
+checkpoint_interval：检查点间隔
 
 ## 支持的模型列表
 
@@ -124,13 +133,12 @@ add_write_mode：标签的写入模式，默认True为追加写入，Fasle为覆
 
     ./csv/中文化danbooru-tag对照表-词性对AI用优化版-Editor阿巧.xlsx
 
-**未汉化：5630条**
+阿巧未汉化的5630条：4.0.0 已经全部汉化完成。
 
-    ./csv/untranslated_tags.csv
-
-原始数据集：Danbooru2023
+原始数据集：Danbooru2024
 
     ./csv/selected_tags.csv
+
 
 **引用**
 
