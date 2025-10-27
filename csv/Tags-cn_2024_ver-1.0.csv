@@ -59,14 +59,14 @@ tag_id,name,category,count,right_tag_cn
 376766,white_shirt,0,629056,白衬衫
 608813,full_body,0,624413,全身|画出了全身
 547463,upper_body,0,595301,上半身
-391,panties,0,580171,内裤|短裤|裤袜
+391,panties,0,580171,内裤 | 短裤 | 裤袜
 465619,closed_eyes,0,570045,闭上的眼睛
 89189,yellow_eyes,0,565375,黄色的眼睛
 444,swimsuit,0,564464,泳装
 16581,white_hair,0,563701,白发
 11429,pink_hair,0,551851,粉红色的头发
 1681,monochrome,0,547787,单色画
-16580,grey_hair,0,529760,灰色的头发|白发|银发
+16580,grey_hair,0,529760,灰色的头发 | 白发 | 银发
 3522,ahoge,0,528662,呆毛
 4334,braid,0,525679,三股辫
 464561,hair_ribbon,0,525639,发绳
@@ -81,7 +81,7 @@ tag_id,name,category,count,right_tag_cn
 484168,sidelocks,0,484224,披在耳前的发绺
 63,comic,0,474986,漫画
 622137,hetero,0,472134,异性恋
-2750,heart,0,467808,心|心形|爱心
+2750,heart,0,467808,心 | 心形 | 爱心
 3870,thighs,0,465668,大腿
 384553,:d,0,464842,:d(大笑表情)
 374844,hair_bow,0,455229,蝴蝶结发圈
@@ -160,7 +160,7 @@ tag_id,name,category,count,right_tag_cn
 1515536,official_alternate_costume,0,225665,官方异色服装
 502710,tongue_out,0,225097,吐舌头
 2357,sex,0,224302,性交
-16252,spread_legs,0,220686,张开腿|M字张腿|桃色蹲姿|V字张腿
+16252,spread_legs,0,220686,张开腿 | M字张腿 | 桃色蹲姿|V字张腿
 16750,pink_eyes,0,219657,粉红色的眼睛
 389378,sailor_collar,0,218314,水手领
 394970,wide_sleeves,0,217852,宽大的袖子
@@ -253,7 +253,7 @@ tag_id,name,category,count,right_tag_cn
 427008,fingernails,0,141611,指甲
 457408,black_pantyhose,0,141072,黑色连裤袜
 464586,tree,0,140918,树
-481846,hands_up,0,138918,双手朝上|双手抬起|双手举起
+481846,hands_up,0,138918,双手朝上 | 双手抬起 | 双手举起
 579466,looking_to_the_side,0,137447,看向侧面
 1445905,v-shaped_eyebrows,0,137432,眉毛皱成V形(表高傲或愤怒)
 89228,grey_eyes,0,136673,灰色的眼睛
@@ -268,7 +268,7 @@ tag_id,name,category,count,right_tag_cn
 416202,eyelashes,0,128622,睫毛
 4867,wet,0,128093,湿透的|沾湿的
 539584,fur_trim,0,127842,皮草款式|毛皮镶边
-451371,see-through,0,127554,半透明的|可透过看到里层衣物|因沾湿而变透明
+451371,see-through,0,127554,半透明的 | 可透过看到里层衣物 | 因沾湿而变透明
 5501,lips,0,125983,嘴唇
 412078,wrist_cuffs,0,125676,和袖子分开的手腕的袖口
 709722,hand_on_own_hip,0,125620,手叉腰
@@ -535,7 +535,7 @@ tag_id,name,category,count,right_tag_cn
 6059,blazer,0,60883,西装夹克
 7952,suspenders,0,60726,背带
 539837,high_ponytail,0,60681,高马尾
-3649,helmet,0,60628,头盔|头部装甲|头部防护罩
+3649,helmet,0,60628,头盔 | 头部装甲 | 头部防护罩
 10229,suit,0,60597,西装
 14452,feathers,0,60497,羽毛
 487156,3boys,0,60256,3个男性
@@ -621,7 +621,7 @@ tag_id,name,category,count,right_tag_cn
 464713,head_wings,0,50590,头上有翅膀
 374979,all_fours,0,50589,母豹pose
 479729,gem,0,50476,宝石
-1568,yaoi,0,50394,㚻|BL|腐|腐向
+1568,yaoi,0,50394,㚻 | BL | 腐|腐向
 683385,red_footwear,0,50318,红色鞋类
 631529,white_apron,0,50311,白色围裙
 4232,tan,0,50265,小麦色(皮肤)
@@ -655,7 +655,7 @@ tag_id,name,category,count,right_tag_cn
 594766,star_(sky),0,47531,星星(天空中的)
 405345,cherry_blossoms,0,47379,樱花
 415668,single_thighhigh,0,47212,只有一条腿有穿着
-3046,kiss,0,47187,吻|亲吻|接吻
+3046,kiss,0,47187,吻 | 亲吻 | 接吻
 674623,feathered_wings,0,47185,羽翼
 575322,clenched_hand,0,46937,握紧的手
 1865,bandaid,0,46933,创可贴
@@ -692,7 +692,7 @@ tag_id,name,category,count,right_tag_cn
 12667,child,0,44490,小孩
 314230,breast_press,0,44420,挤压胸部
 427968,revealing_clothes,0,44396,暴露的穿着
-3417,anal,0,44311,肛门|肛交|着衣肛交|骑乘位肛交
+3417,anal,0,44311,肛门 | 肛交 | 着衣肛交|骑乘位肛交
 1416353,red_headwear,0,44263,红色头饰
 403060,gauntlets,0,44232,护腕
 477288,white_ribbon,0,44232,白色丝带
@@ -843,7 +843,7 @@ tag_id,name,category,count,right_tag_cn
 671227,tearing_up,0,34501,要哭的表情
 536573,colored_sclera,0,34468,异色巩膜
 376923,black_wings,0,34430,黑色翅膀
-574271,science_fiction,0,34425,近未来|sf|科幻
+574271,science_fiction,0,34425,近未来 | sf | 科幻
 491144,blue_bikini,0,34284,蓝色比基尼
 658950,holding_book,0,34251,捧着书
 15689,:p,0,34251,:p(吐舌表情)
@@ -973,7 +973,7 @@ tag_id,name,category,count,right_tag_cn
 572906,crying_with_eyes_open,0,28578,睁着眼落泪
 1651,rain,0,28539,雨
 1293269,blue_footwear,0,28499,蓝色鞋类
-465382,crossdressing,0,28485,(变装)女装|男装|女装男子|女装
+465382,crossdressing,0,28485,(变装)女装 | 男装 | 女装男子|女装
 384087,angel_wings,0,28458,天使的翅膀
 463127,white_bra,0,28428,白色胸罩
 6175,cuffs,0,28351,手铐
@@ -1006,7 +1006,7 @@ tag_id,name,category,count,right_tag_cn
 469668,raised_eyebrows,0,27372,扬起的双眉
 620577,brown_jacket,0,27267,棕色夹克
 465145,tanlines,0,27147,晒痕
-1810,rape,0,27123,强奸|轮奸|凌辱
+1810,rape,0,27123,强奸 | 轮奸 | 凌辱
 572753,6+boys,0,27118,6个以上的男性
 416676,denim_shorts,0,27082,牛仔短裤
 1292999,spoken_ellipsis,0,27067,会话气泡里带省略号
@@ -1045,7 +1045,7 @@ tag_id,name,category,count,right_tag_cn
 538475,asymmetrical_hair,0,26186,不对称的发型
 658682,knees_together_feet_apart,0,26179,双膝并拢双脚分开
 15200,robe,0,26176,礼袍
-10543,spread_pussy,0,26147,掰开阴部|掰穴|掰开的阴部
+10543,spread_pussy,0,26147,掰开阴部 | 掰穴 | 掰开的阴部
 7581,garter_belt,0,26141,吊带袜的腰带
 1045681,white_shorts,0,26132,白色短裤
 471755,machinery,0,26075,机械武装
@@ -1379,7 +1379,7 @@ tag_id,name,category,count,right_tag_cn
 560167,character_doll,0,17833,角色公仔
 643824,grabbing_from_behind,0,17832,从背后揉胸|从背后抓住胸部
 481511,red_lips,0,17829,朱唇
-470562,spaghetti_strap,0,17819,细肩带|细吊带|肩带式
+470562,spaghetti_strap,0,17819,细肩带 | 细吊带 | 肩带式
 526218,bandeau,0,17800,抹胸比基尼
 572684,white_scarf,0,17793,白色围巾
 407647,adjusting_hair,0,17749,理头发
@@ -1445,7 +1445,7 @@ tag_id,name,category,count,right_tag_cn
 448279,cabbie_hat,0,16707,报童帽
 542666,flipped_hair,0,16666,外卷发型
 1801550,single_side_bun,0,16663,单侧发髻
-578,lactation,0,16593,母乳|搾乳|喷乳
+578,lactation,0,16593,母乳 | 搾乳 | 喷乳
 2898,basket,0,16587,篮子
 451332,bun_cover,0,16573,发髻盖
 524779,microskirt,0,16557,超短裙
@@ -1719,7 +1719,7 @@ tag_id,name,category,count,right_tag_cn
 4965,dagger,0,12657,匕首
 626241,triangular_headpiece,0,12643,三角头巾
 688713,snake_hair_ornament,0,12641,蛇形发饰|蛙头发饰
-2565,battle,0,12629,战斗|比试|战争|游戏
+2565,battle,0,12629,战斗 | 比试 | 战争|游戏
 602796,star_print,0,12628,星形图案|星形印花
 1795966,cone_hair_bun,0,12628,锥形发髻
 469422,paw_print,0,12618,爪印图案
@@ -1878,7 +1878,7 @@ tag_id,name,category,count,right_tag_cn
 474598,tate_eboshi,0,11040,乌纱
 4358,plugsuit,0,11036,EVA驾驶员服
 538586,hat_feather,0,11036,带有羽毛的帽子
-448185,garrison_cap,0,11002,船形帽|卫戍帽|军便帽
+448185,garrison_cap,0,11002,船形帽 | 卫戍帽 | 军便帽
 375526,short_kimono,0,10991,短下摆和服
 9504,magatama,0,10984,勾玉
 376034,white_eyes,0,10974,白色的眼睛
@@ -1999,7 +1999,7 @@ tag_id,name,category,count,right_tag_cn
 519374,white_belt,0,9896,白色腰带
 492645,gyaru,0,9888,辣妹
 439130,anniversary,0,9882,纪念日
-491645,head_fins,0,9881,鱼人耳|人鱼耳|鳍状耳朵
+491645,head_fins,0,9881,鱼人耳 | 人鱼耳 | 鳍状耳朵
 703196,leaf_hair_ornament,0,9880,叶子发饰
 1431068,holding_stuffed_toy,0,9869,抱着毛绒玩具
 3971,handcuffs,0,9863,手铐
@@ -2019,7 +2019,7 @@ tag_id,name,category,count,right_tag_cn
 447060,spiked_collar,0,9739,带钉项圈
 1451201,draph,0,9738,牛角族
 2215,house,0,9728,房子
-7929,shackles,0,9725,手铐|镣铐|枷锁
+7929,shackles,0,9725,手铐 | 镣铐 | 枷锁
 415106,neck_ring,0,9724,颈环
 4633,singing,0,9722,唱歌
 4429,pencil,0,9721,铅笔
@@ -2054,7 +2054,7 @@ tag_id,name,category,count,right_tag_cn
 399391,spiked_bracelet,0,9552,带钉手镯
 2006746,unworn_shoes,0,9545,脱下的鞋子
 471436,doughnut,0,9533,甜甜圈
-495147,hair_slicked_back,0,9522,头发往后捋|往后梳的头发|背头发型
+495147,hair_slicked_back,0,9522,头发往后捋 | 往后梳的头发 | 背头发型
 490261,partially_colored,0,9509,部分上色
 379375,red_coat,0,9507,红色外套
 663521,shoe_soles,0,9502,鞋底
@@ -2086,7 +2086,7 @@ tag_id,name,category,count,right_tag_cn
 443371,raccoon_tail,0,9302,浣熊尾巴
 464580,split,0,9286,分开
 530616,checkered_floor,0,9253,格子地板
-637674,slingshot_swimsuit,0,9251,弹弓泳衣|吊带泳衣|V字泳衣
+637674,slingshot_swimsuit,0,9251,弹弓泳衣 | 吊带泳衣 | V字泳衣
 2998,cunnilingus,0,9242,舔阴
 560578,multicolored_skin,0,9238,多彩皮肤
 4924,camouflage,0,9220,迷彩
@@ -2383,7 +2383,7 @@ tag_id,name,category,count,right_tag_cn
 1515356,green_theme,0,7364,绿色主题
 1389146,white_neckerchief,0,7364,白色领巾
 1428556,standing_split,0,7362,站立劈叉|站立高抬腿
-329,bestiality,0,7360,兽交|兽奸|异种奸
+329,bestiality,0,7360,兽交 | 兽奸 | 异种奸
 468075,jiangshi,0,7347,僵尸
 410239,superhero,0,7335,超级英雄
 511642,single_sock,0,7329,单边穿着长袜
@@ -2526,7 +2526,7 @@ tag_id,name,category,count,right_tag_cn
 655244,cross_earrings,0,6657,十字耳环
 1429011,holding_candy,0,6654,手持糖果
 545136,coat_on_shoulders,0,6644,外套披肩
-1168235,halter_dress,0,6639,绕颈裙|衬衣式连衣裙|露背吊带裙
+1168235,halter_dress,0,6639,绕颈裙 | 衬衣式连衣裙 | 露背吊带裙
 1875949,lower_teeth_only,0,6637,只露下排牙齿
 1425519,tokiwadai_school_uniform,0,6634,常盘台中学校服
 466986,horn_ribbon,0,6631,角上系着缎带
@@ -2534,7 +2534,7 @@ tag_id,name,category,count,right_tag_cn
 1483713,multiple_rings,0,6626,多个戒指
 10367,prosthesis,0,6621,假肢
 422021,cow_tail,0,6617,牛尾
-1276067,floppy_ears,0,6612,大耳朵|下垂的耳朵|飞机耳发型
+1276067,floppy_ears,0,6612,大耳朵 | 下垂的耳朵 | 飞机耳发型
 3516,river,0,6609,河
 456272,dog_tags,0,6605,狗牌
 388210,gold,0,6604,金
@@ -2711,7 +2711,7 @@ tag_id,name,category,count,right_tag_cn
 1345564,partially_unzipped,0,5871,只拉上部分拉链
 626243,aiguillette,0,5866,绶带
 1574241,dolphin_shorts,0,5865,海豚短裤
-3778,amputee,0,5857,欠损|独脚|肢体残缺|欠损少女
+3778,amputee,0,5857,欠损 | 独脚 | 肢体残缺|欠损少女
 379182,energy,0,5857,能量特效
 531372,mouse_girl,0,5848,鼠娘
 1639310,arthropod_girl,0,5848,节肢动物娘
@@ -3245,7 +3245,7 @@ tag_id,name,category,count,right_tag_cn
 666708,w_arms,0,4182,双臂摆出W
 724362,single_detached_sleeve,0,4177,单边没脱掉的袖子
 1530508,scar_on_nose,0,4175,鼻子上的疤痕
-7631,harpy,0,4173,有翼人|半人半鸟|鸟人族
+7631,harpy,0,4173,有翼人 | 半人半鸟 | 鸟人族
 588209,irrumatio,0,4172,深喉
 525461,smokestack,0,4170,烟囱
 7994,fighting,0,4166,战斗中的
@@ -3464,7 +3464,7 @@ tag_id,name,category,count,right_tag_cn
 856710,neck_tattoo,0,3708,颈部纹身
 1468130,paradis_military_uniform,0,3708,帕拉迪岛军装
 4262,surreal,0,3707,怪诞的|超现实主义
-461788,scowl,0,3701,怒视|嫌弃的眼神|不满的眼神
+461788,scowl,0,3701,怒视 | 嫌弃的眼神 | 不满的眼神
 409293,open_dress,0,3700,开襟连衣裙
 1408401,white_scrunchie,0,3699,白色发束
 514260,left-handed,0,3697,左撇子
@@ -3650,7 +3650,7 @@ tag_id,name,category,count,right_tag_cn
 15667,riding_crop,0,3376,马术马鞭
 407041,profanity,0,3376,亵渎
 428664,embers,0,3376,余烬
-2641,paint,0,3375,油漆|涂料|颜料
+2641,paint,0,3375,油漆 | 涂料 | 颜料
 1342770,strappy_heels,0,3375,带束带的高跟鞋
 505313,torn_sleeves,0,3373,破损的袖子
 1488457,grey_horns,0,3371,灰色角
@@ -4243,7 +4243,7 @@ tag_id,name,category,count,right_tag_cn
 374503,strawberry_shortcake,0,2602,草莓蛋糕|镶草莓的糕点
 1670355,furry_with_furry,0,2602,双兽人
 376636,confused,0,2601,困惑
-488880,fourth_wall,0,2601,虚实穿插|连接到现实的感觉|次元壁
+488880,fourth_wall,0,2601,虚实穿插 | 连接到现实的感觉 | 次元壁
 1174935,hand_on_own_leg,0,2599,手放腿上
 4381,ufo,0,2598,不明飞行物
 631042,pool_ladder,0,2598,泳池扶梯
@@ -4381,7 +4381,7 @@ tag_id,name,category,count,right_tag_cn
 457115,when_you_see_it,0,2442,把梗元素藏在图里
 481420,blood_stain,0,2442,血迹
 559145,school_hat,0,2440,通学帽
-12284,gown,0,2439,女裙|女长服|女礼服
+12284,gown,0,2439,女裙 | 女长服 | 女礼服
 501554,sweater_around_waist,0,2438,束在腰上的毛衣
 1383226,ofuda_on_clothes,0,2438,衣服上贴着符纸
 1378575,monsterification,0,2437,魔物化
@@ -4763,7 +4763,7 @@ tag_id,name,category,count,right_tag_cn
 550124,sitting_in_tree,0,2056,坐在树上
 712381,thigh_cutout,0,2055,大腿镂空设计
 4313,pointer,0,2054,指示棒
-508957,health_bar,0,2053,血量槽|HP|血条
+508957,health_bar,0,2053,血量槽 | HP | 血条
 544708,fish_girl,0,2053,鱼人
 582361,head_between_breasts,0,2050,头埋在胸里|洗面奶
 660778,knees_apart_feet_together,0,2048,膝盖分开脚并拢
@@ -4800,7 +4800,7 @@ tag_id,name,category,count,right_tag_cn
 464556,dolphin,0,2027,海豚
 495132,autobot,0,2027,汽车人
 4654,flustered,0,2026,慌乱的
-443879,gorget,0,2026,护喉|护喉甲|颈甲
+443879,gorget,0,2026,护喉 | 护喉甲 | 颈甲
 1426521,white_veil,0,2025,白色头纱
 516012,clothed_masturbation,0,2024,穿着衣服自慰
 467618,belt_bra,0,2023,束带胸罩
@@ -4939,7 +4939,7 @@ tag_id,name,category,count,right_tag_cn
 1488134,brown_horns,0,1922,棕色角
 501344,fallen_down,0,1921,倒地的
 1684797,grabbing_another's_chin,0,1920,抓住对方下巴
-387935,spirit,0,1920,还魂|伴灵|精神体
+387935,spirit,0,1920,还魂 | 伴灵 | 精神体
 410111,bowing,0,1920,鞠躬
 488193,slap_mark,0,1918,掌印
 612104,respirator,0,1918,呼吸器
@@ -5066,7 +5066,7 @@ tag_id,name,category,count,right_tag_cn
 5873,confession,0,1811,表白
 5323,kettle,0,1811,水壶
 1317361,multicolored_bow,0,1810,多色蝴蝶结
-492764,heart_tail,0,1809,心形尾巴|心形尾尖|尾巴摆出心形
+492764,heart_tail,0,1809,心形尾巴 | 心形尾尖 | 尾巴摆出心形
 1259138,mole_on_ass,0,1808,臀部有痣
 564789,romper,0,1806,连体衣
 1537058,diamond_cutout,0,1805,菱形镂空
@@ -5118,7 +5118,7 @@ tag_id,name,category,count,right_tag_cn
 541262,disgust,0,1782,厌恶表情
 330013,pie,0,1780,馅饼
 613128,embellished_costume,0,1779,经润饰的服装
-526470,thighhighs_pull,0,1778,拉着长袜|拉着过膝袜|拉着裤袜
+526470,thighhighs_pull,0,1778,拉着长袜 | 拉着过膝袜 | 拉着裤袜
 467745,japanese_flag,0,1777,日本国旗
 8234,radio,0,1777,收音机
 1467811,6+others,0,1776,6人以上
@@ -5531,7 +5531,7 @@ tag_id,name,category,count,right_tag_cn
 440354,yo-yo,0,1511,悠悠球
 411779,ankh,0,1510,安库(假面骑士OOO)
 1530487,off-shoulder_jacket,0,1510,露肩夹克
-494464,uvula,0,1509,小舌头|口盖垂|悬雍垂
+494464,uvula,0,1509,小舌头 | 口盖垂 | 悬雍垂
 536575,cheek_press,0,1509,脸颊相贴
 1411208,purple_neckerchief,0,1509,紫色领巾
 375718,daruma_doll,0,1509,达摩不倒翁
@@ -5598,7 +5598,7 @@ tag_id,name,category,count,right_tag_cn
 699449,raimon,0,1476,雷门高中
 11623,bad_end,0,1475,坏结局
 1411201,kiyosumi_school_uniform,0,1475,清澄高中校服
-644571,flock,0,1474,悠远|恢弘感|一大群
+644571,flock,0,1474,悠远 | 恢弘感 | 一大群
 5497,fountain,0,1474,喷泉
 1381675,holding_stylus,0,1474,手持手写笔
 492714,curry_rice,0,1474,咖喱饭
@@ -6487,7 +6487,7 @@ tag_id,name,category,count,right_tag_cn
 549347,green_pantyhose,0,1086,绿色连裤袜
 1564958,heart_maebari,0,1085,心形乳贴
 8697,porch,0,1084,门廊
-462190,public_use,0,1084,公用|肉便器|公交车
+462190,public_use,0,1084,公用 | 肉便器 | 公交车
 1623058,male_maid,0,1084,男仆
 1450741,oohashi_high_school_uniform,0,1084,大桥高中校服
 5231,tonfa,0,1083,东方棍

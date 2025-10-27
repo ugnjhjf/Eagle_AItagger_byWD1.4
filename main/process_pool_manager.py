@@ -32,9 +32,10 @@ class ProcessPoolManager:
                 'last_activity': time.time(),
                 'start_time': time.time()
             }
-        print("所有工作进程已启动")
+        print(f"所有 {self.num_processes} 个工作进程已启动")
 
     def submit_tasks(self, batches: List[Dict]):
+        print(f"正在提交 {len(batches)} 个任务批次...")
         for batch in batches:
             task = (batch['batch_id'], batch['images'])
             self.task_queue.put(task)
@@ -51,7 +52,7 @@ class ProcessPoolManager:
             return result
         except queue.Empty:
             self.restart_failed_workers()
-            return {'error': 'Timeout getting result'}
+            return {'error': '获取结果超时'}
 
     def monitor_workers(self) -> Dict[str, Any]:
         active_workers = 0
@@ -61,7 +62,7 @@ class ProcessPoolManager:
                 active_workers += 1
                 total_processed += status['processed_tasks']
                 if time.time() - status['last_activity'] > 300:
-                    print(f"警告：工作进程 {worker_id} 可能卡住了")
+                    print(f"警告: 工作进程 {worker_id} 可能卡住，最后活动于 {time.time() - status['last_activity']:.0f} 秒前")
         return {
             'total_workers': len(self.processes),
             'active_workers': active_workers,
@@ -95,7 +96,7 @@ class ProcessPoolManager:
                 'last_activity': time.time(),
                 'start_time': time.time()
             }
-            print(f"工作进程 {worker_id} 已重启")
+            print(f"工作进程 {worker_id} 重启完成")
 
     def shutdown(self):
         print("正在关闭进程池...")
@@ -110,4 +111,4 @@ class ProcessPoolManager:
                 if process.is_alive():
                     print(f"正在强制终止工作进程 {i}")
                     process.terminate()
-        print("进程池已关闭")
+        print("进程池关闭完成")

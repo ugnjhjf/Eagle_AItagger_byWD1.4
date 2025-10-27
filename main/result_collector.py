@@ -24,8 +24,11 @@ class ResultCollector:
                 self.total_tags += len(item.get('tags', []))
             else:
                 self.failure_count += 1
-        print(f"批次 {result.get('batch_id')} 处理完成: 成功 {sum(r['success'] for r in batch_results)}/{len(batch_results)}")
-
+        # 简化批次完成日志，避免干扰进度条
+        success_count = sum(r['success'] for r in batch_results)
+        if success_count < len(batch_results):
+            print(f"\n批次 {result.get('batch_id')} 处理完成: 成功 {success_count}/{len(batch_results)}")
+    
     def update_json_files(self):
         """批量更新JSON（在结果合并后）"""
         for result in self.results:
