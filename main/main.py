@@ -37,6 +37,7 @@ def main(config_path: Path, img_list_path: Path):
     checker.check_for_update()
 
     image_data = get_image_list_info(img_list_path)
+    print(f"解析图片列表中...请等待...")
     print(f"找到图片数量: {len(image_data)}")
     if not image_data:
         print("没有需要处理的图片")
