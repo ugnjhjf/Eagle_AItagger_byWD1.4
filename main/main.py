@@ -101,7 +101,7 @@ def main(config_path: Path, img_list_path: Path):
         print("\n正在清理资源...")
         progress_monitor.stop()
         pool_manager.shutdown()
-        print("程序结束")
+        input("程序结束，按回车键退出...")
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="图像标注工具")

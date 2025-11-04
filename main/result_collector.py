@@ -95,7 +95,7 @@ class ResultCollector:
             print(f"CSV报告已生成: {csv_path}")
 
         summary = self.get_summary()
-        report_path = 'processing_summary.txt'
+        report_path = '图像标注处理报告.txt'
         with open(report_path, 'w', encoding='utf-8') as f:
             f.write("图像标注处理报告\n")
             f.write("=" * 50 + "\n")

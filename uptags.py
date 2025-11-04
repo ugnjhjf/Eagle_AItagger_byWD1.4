@@ -83,6 +83,7 @@ def process_json(json_file, tag_map):
         updated_tags = []
         tags_updated = False
         changed_tags = []  # 记录发生变化的标签
+        unmatched_tags = []  # 记录未匹配的标签
         
         # 更新标签
         for tag in original_tags:
@@ -93,9 +94,16 @@ def process_json(json_file, tag_map):
                 tags_updated = True
                 changed_tags.append(f"{tag} -> {new_tag}")  # 记录变化
             else:
+                unmatched_tags.append(tag)  # 记录未匹配的标签
                 if tag not in updated_tags:  # 避免重复标签
                     updated_tags.append(tag)
         
+        # 调试信息：如果有标签但没匹配到映射
+        if original_tags and not tags_updated:
+            print(f"\n文件 {os.path.basename(json_file)} 有标签但未匹配:")
+            print(f"  原标签: {original_tags}")
+            print(f"  未匹配: {unmatched_tags}")
+
         # 如果有标签被更新，则保存文件
         if tags_updated:
             data["tags"] = updated_tags
@@ -138,11 +146,9 @@ def main():
     print(f"\r总共扫描了 {files_scanned_count} 个文件。")
     print(f"共找到 {len(json_files)} 个 JSON 文件。")
 
-    json_files = [r"E:\动画与设计资源库.library\images\MEQRUPHOLSMDC.info\metadata.json"]
-
     # 读取csv建立映射表
     tag_map = {}
-    csv_path = r"csv\Tags-cn_2023_ver-1.0.csv"
+    csv_path = r"csv\Tags-cn_2024_ver-1.0.csv"
     
     try:
         df = pd.read_csv(csv_path)
@@ -166,8 +172,20 @@ def main():
         print(f"读取 CSV 文件失败: {e}")
         return
 
+    # 在处理前添加统计
+    all_tags_in_library = set()
+    for json_file in json_files[:1000]:  # 抽样检查前1000个文件
+        try:
+            with open(json_file, 'r', encoding='utf-8') as f:
+                data = json.load(f)
+            all_tags_in_library.update(data.get("tags", []))
+        except Exception as e:
+            print(f"读取文件 {json_file} 时出错: {e}")
+    print(f"资源库中的唯一标签数量: {len(all_tags_in_library)}")
+    print(f"映射表覆盖率: {len(set(tag_map.keys()) & all_tags_in_library)}/{len(all_tags_in_library)}")
+
     # 确认是否继续
-    confirm = input(f"\n即将更新 {len(json_files)} 个文件的标签，是否继续? (y/n): ")
+    confirm = input(f"\n即将检查 {len(json_files)} 个文件的标签，是否继续? (y/n): ")
     if confirm.lower() != 'y':
         print("操作已取消")
         return

@@ -100,8 +100,6 @@ class ProgressMonitor:
         total_time = time.time() - self.start_time
         
         print("\n" + "=" * 50)
-        print("处理完成！")
-        print("=" * 50)
         print(f"图片总数:     {summary['total_images']:>8}")
         print(f"处理成功:     {summary['success_count']:>8}")
         print(f"处理失败:     {summary['failure_count']:>8}")
