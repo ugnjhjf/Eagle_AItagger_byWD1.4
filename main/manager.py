@@ -3,8 +3,8 @@ from pathlib import Path
 import time
 from typing import List, Dict, Any
 from PIL import Image
-from tagger import TaggerService
-from unified_config import UnifiedConfig, VersionConfig, ModelConfig, TagConfig, ProcessConfig, ReportConfig
+from .tagger import TaggerService
+from .unified_config import UnifiedConfig, VersionConfig, ModelConfig, TagConfig, ProcessConfig, ReportConfig
 
 class ModelWorker:
     """模型工作进程"""

@@ -5,7 +5,7 @@ from PIL import Image, UnidentifiedImageError
 import pandas as pd
 import numpy as np
 from onnxruntime import InferenceSession
-from image_utils import ImageUtils  # 导入预处理工具
+from .image_utils import ImageUtils  # 导入预处理工具
 
 class WaifuDiffusionInterrogator:
     """WD14模型实现"""

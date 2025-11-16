@@ -3,7 +3,7 @@ from pathlib import Path
 import pandas as pd
 import time
 import json
-from unified_config import UnifiedConfig
+from .unified_config import UnifiedConfig
 
 class ResultCollector:
     """结果收集器"""

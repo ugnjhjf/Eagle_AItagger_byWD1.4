@@ -2,7 +2,7 @@ import requests
 from packaging import version
 from typing import Optional
 from pathlib import Path
-from unified_config import UnifiedConfig
+from .unified_config import UnifiedConfig
 
 class VersionChecker:
     """版本检查器"""

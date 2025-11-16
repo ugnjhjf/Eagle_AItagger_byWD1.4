@@ -1,6 +1,6 @@
 from typing import List, Dict, Any
 import math
-from unified_config import UnifiedConfig
+from .unified_config import UnifiedConfig
 
 class TaskDispatcher:
     """任务分发器"""

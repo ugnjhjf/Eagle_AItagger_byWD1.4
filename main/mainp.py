@@ -1,12 +1,12 @@
 import argparse
 from pathlib import Path
 import traceback
-from unified_config import UnifiedConfig
-from task_dispatcher import TaskDispatcher
-from process_pool_manager import ProcessPoolManager
-from result_collector import ResultCollector
-from progress_monitor import ProgressMonitor
-from check_update import VersionChecker
+from .unified_config import UnifiedConfig
+from .task_dispatcher import TaskDispatcher
+from .process_pool_manager import ProcessPoolManager
+from .result_collector import ResultCollector
+from .progress_monitor import ProgressMonitor
+from .check_update import VersionChecker
 
 def get_image_list_info(img_list_path: Path) -> list:
     with img_list_path.open('r', encoding='utf-8') as f:
@@ -41,6 +41,7 @@ def main(config_path: Path, img_list_path: Path):
     print(f"找到图片数量: {len(image_data)}")
     if not image_data:
         print("没有需要处理的图片")
+        input("程序结束，按回车键退出...")
         return
 
     print("正在初始化组件...")
@@ -102,10 +103,3 @@ def main(config_path: Path, img_list_path: Path):
         progress_monitor.stop()
         pool_manager.shutdown()
         input("程序结束，按回车键退出...")
-
-if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="图像标注工具")
-    parser.add_argument('--config', type=Path, default=Path('config.ini'), help='配置文件路径')
-    parser.add_argument('--image_list', type=Path, default=Path('image_list.txt'), help='图片列表文件路径')
-    args = parser.parse_args()
-    main(args.config, args.image_list)

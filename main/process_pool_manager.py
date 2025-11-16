@@ -2,8 +2,8 @@ import multiprocessing as mp
 from typing import List, Dict, Any
 import time
 import queue
-from manager import worker_process
-from unified_config import UnifiedConfig
+from .manager import worker_process
+from .unified_config import UnifiedConfig
 
 class ProcessPoolManager:
     """进程池管理器"""

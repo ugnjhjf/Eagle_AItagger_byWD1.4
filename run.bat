@@ -32,18 +32,11 @@ set "PYTHONUTF8=1"
 echo === Starting main.py at %DATE% %TIME% ===> "%LOGFILE%"
 echo === Starting main.py at %DATE% %TIME% ===> "%LOGFILE%" >> "%LOGFILE%"
 
-set "SCRIPT="
-if exist "%~dp0main.py" (
-    set "SCRIPT=%~dp0main.py"
-) else (
-    if exist "%~dp0main\main.py" (
-        set "SCRIPT=%~dp0main\main.py"
-    )
-)
+set "SCRIPT=%~dp0main.py"
 
 if "%SCRIPT%"=="" (
     echo Error: Could not find main.py in repository root or in the subfolder "main".>&2
-    echo Searched: "%~dp0main.py" and "%~dp0main\main.py".>&2
+    echo Searched: "%~dp0main.py".>&2
     exit /b 2
 )
 
