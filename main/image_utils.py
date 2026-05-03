@@ -1,15 +1,24 @@
 from PIL import Image
 import numpy as np
 import cv2
+from pillow_heif import register_heif_opener
+
+# 注册 HEIC/HEIF 格式支持，使 PIL 可以打开此类文件
+register_heif_opener()
+
+# 通过 PIL 中转读取 cv2
+_PIL_ONLY_EXTENSIONS = {".gif", ".heic", ".heif", ".avif"}
+
 
 class ImageUtils:
     """图像预处理工具"""
+
     @staticmethod
-    def fill_transparent(image: Image.Image, color='WHITE'):
-        image = image.convert('RGBA')
-        new_image = Image.new('RGBA', image.size, color)
+    def fill_transparent(image: Image.Image, color="WHITE"):
+        image = image.convert("RGBA")
+        new_image = Image.new("RGBA", image.size, color)
         new_image.paste(image, mask=image)
-        return new_image.convert('RGB')
+        return new_image.convert("RGB")
 
     @staticmethod
     def resize(pic: Image.Image, size: int, keep_ratio=True) -> Image.Image:
@@ -26,7 +35,8 @@ class ImageUtils:
 
     @staticmethod
     def smart_imread(img_path, flag=cv2.IMREAD_UNCHANGED):
-        if img_path.suffix == ".gif":
+        suffix_lower = img_path.suffix.lower()
+        if suffix_lower in _PIL_ONLY_EXTENSIONS:
             img = Image.open(img_path)
             img = img.convert("RGB")
             img = cv2.cvtColor(np.array(img), cv2.COLOR_RGB2BGR)
@@ -56,7 +66,9 @@ class ImageUtils:
         top, bottom = delta_h // 2, delta_h - (delta_h // 2)
         left, right = delta_w // 2, delta_w - (delta_w // 2)
         color = [255, 255, 255]
-        return cv2.copyMakeBorder(img, top, bottom, left, right, cv2.BORDER_CONSTANT, value=color)
+        return cv2.copyMakeBorder(
+            img, top, bottom, left, right, cv2.BORDER_CONSTANT, value=color
+        )
 
     @staticmethod
     def smart_resize(img, size):
